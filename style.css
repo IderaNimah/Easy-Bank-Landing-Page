@@ -1,0 +1,359 @@
+@import url("https://fonts.googleapis.com/css2?family=Public+Sans:wght@300&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@200&display=swap');
+*{
+  padding: 0%;
+  margin: 0%;
+}
+header {
+  position: relative;
+  height: 86px;
+  z-index: 99999;
+  background-color: hsl(0, 0%, 100%);
+}
+.container {
+  margin: auto;
+  width: 85%;
+}
+.logo {
+  margin-top: 40px;
+  position: absolute;
+}
+main {
+  overflow: hidden;
+}
+
+/* Navigation Bar */
+.navigation{
+  float: right;
+  margin-top: 40px;
+  margin-right: 400px; 
+}
+.navigation ul{
+  margin: 0%;
+  padding: 0%;
+}
+.navigation li{
+  display: inline;
+  float: left;
+  padding: 0 20px 0 20px;
+  font-family: "Public Sans", sans-serif;
+  color: hsl(0, 2%, 64%);
+}
+.request {
+  float: right;
+  position: absolute;
+  right: 150px;
+  margin-top: 40px;
+}
+.request a {
+  text-decoration: none;
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(136, 65%, 51%);
+  padding: 12px 30px;
+  border-radius: 20px;
+  background: linear-gradient(
+    90deg,
+    rgb(25, 253, 154) 1%,
+    rgb(101, 202, 158) 27%,
+    rgb(77, 169, 129) 100%
+  );
+  font-family: "Public Sans", sans-serif;
+  font-size: 18px;
+}
+
+/* Section-One */
+.first {
+  top: 150px;
+  height: 100vh;
+}
+.mock {
+  display: flex;
+  position: relative;
+}
+.mock-one {
+  background-image: url(./images/bg-intro-desktop.svg);
+  background-position: -75px; 
+  position: absolute;
+  top: -490px;
+  left: 750px;
+  background-position-y: -140px;
+  background-repeat: no-repeat;
+}
+.mock-one img{
+  margin-left: 100px;
+}
+
+/* Headers in Section One */
+.sec-one {
+  margin-left: 110px;
+}
+.sec-one h1 {
+  margin-bottom: 25px;
+  font-size: 55px;
+  margin-top: 125px;
+  font-family: "Public Sans", sans-serif;
+}
+.sec-one p {
+  font-size: 18px;
+  font-family: "Public Sans", sans-serif;
+  color: hsl(0, 2%, 64%);
+}
+.sec-link {
+  margin-top: 45px;
+}
+.sec-link a {
+  text-decoration: none;
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(136, 65%, 51%);
+  padding: 12px 30px;
+  border-radius: 20px;
+  background: linear-gradient(
+    90deg,
+    rgb(25, 253, 154) 1%,
+    rgb(101, 202, 158) 27%,
+    rgb(77, 169, 129) 100%
+  );
+  font-family: "Public Sans", sans-serif;
+  font-size: 18px;
+}
+
+/* Section-Two */
+.section-two{
+  background-color: hsl(214, 100%, 99%);
+  position: relative;
+  top: -229px;
+  z-index: -9999;
+  padding: 100px; 
+  height: 500px;
+}
+.container-box{
+  display: flex;
+  padding-top: 40px;
+  margin-right: 250px;
+  width: 100%;
+}
+.sec-two-letter{
+  font-size: 30px;
+  font-family: "Public Sans", sans-serif;
+  margin-left: 20px;
+}
+.sec-two-par{
+  margin-top:20px ;
+  font-family: "Public Sans", sans-serif;
+  color: hsl(0, 2%, 64%);
+  margin-left: 20px;
+}
+.box-one{
+  padding: 20px;
+  line-height: 25px;
+}
+.box-two{
+  padding: 20px;
+  line-height: 25px;
+}
+.box-three{
+  padding: 20px;
+  line-height: 25px;
+}
+.box-four{
+  padding: 20px;
+  line-height: 25px;
+} 
+#box-p{
+  margin-top: 25px;
+  font-family: "Public Sans", sans-serif;
+  color: hsl(0, 2%, 64%);
+  width: 255px;
+}
+#box-head{
+  font-family: "Public Sans", sans-serif;
+  margin-top: 25px;
+}
+
+/* Section Three */
+
+.container-image{
+  position: relative;
+  top: -232px;
+  left: -4px; 
+  height: 734px; 
+  background-color:  hsl(0, 0%, 98%); 
+  padding-top: 72px;
+  padding-left: 120px;
+  
+}
+.header-three{
+  font-size: 35px;
+  font-family: 'Public Sans', sans-serif;
+  width: 400px;
+  font-weight: 200;
+}
+.header h3{
+  font-size: 40px;
+  font-family: 'Public Sans', sans-serif;
+  font-weight: 200;
+}
+.whole-container{
+  display: flex;
+  margin-top: 50px;
+}
+
+.container-one img{
+  width: 300px;
+  border-top-left-radius:6px;
+  border-top-right-radius:6px;
+}
+.word-one{
+  background-color: hsl(0, 0%, 100%);
+  padding: 25px;
+  height: 200px;
+  margin-top: -10px;
+}
+.container-two{
+  margin-right:248px;
+  margin-left: 24px;
+}
+.container-two img{
+  width: 300px;
+  height: 225px;
+  border-top-left-radius:6px;
+  border-top-right-radius:6px;
+}
+.word-two{
+  background-color: hsl(0, 0%, 100%);
+  padding: 25px;
+  height: 200px;
+  margin-top: -10px;
+}
+.container-three{
+  margin-right: 86px;
+  margin-left: -225px;
+}
+.container-three img{
+  width: 300px;
+  height: 225px;
+  border-top-left-radius:6px;
+  border-top-right-radius:6px;
+}
+.word-three{
+  background-color: hsl(0, 0%, 100%);
+  padding: 25px;
+  height: 200px;
+  margin-top: -10px;
+}
+.container-four{
+  margin-right: 192px;
+  margin-left: -66px;
+}
+.container-four img{
+  width: 300px;
+  height: 225px;
+  border-top-left-radius:6px;
+  border-top-right-radius:6px;
+}
+.word-four{
+  background-color: hsl(0, 0%, 100%);
+  padding: 25px;
+  height: 200px;
+  margin-top: -10px;
+}
+
+/* Paragraph and header */
+#p-word{
+  margin-top: 7px;
+  font-family: 'Public Sans', sans-serif;
+  color: hsl(0, 2%, 64%);
+}
+#h-word{
+  margin-top: 11px;
+  font-family: 'Public Sans', sans-serif;
+  width: 194px;
+}
+#second-p{
+  margin-top: 14px;
+  font-family: 'Public Sans', sans-serif;
+  color: hsl(0, 2%, 64%);
+  font-weight: 400;
+}
+
+/* FOOTER */
+.footer{
+  background-color:hsl(233, 26%, 24%) ;
+  top:2398px;
+  height: 200px;
+  margin: 0 auto;
+  position: absolute;
+  width: 100%;
+}
+.footer-icons{
+  display: flex;
+  color: #FFFF;
+  justify-content: space-between;
+}
+.footer-logo{
+  margin-left: 120px;
+  margin-top: 45px;
+}
+
+/* SOCIAL ICON */
+.social-icon{
+  margin-top: 55px;
+}
+.social-icon a{
+  text-decoration: none;
+}
+.social-icon i {
+  color: #FFFF;
+  font-size: 21px;
+  padding: 5px;
+}
+/* FOOTER NAV */
+.divnav{
+  display: flex;
+  justify-content: space-between;
+}
+.divnav li{
+  list-style: none;
+  font-family: 'Public Sans', sans-serif;
+  font-size: 17px;
+}
+.foot-nav{
+  position: absolute;
+  left: 437px;
+  top: 40px;
+}
+.foot-nav li{
+  padding: 10px;
+}
+.foot-nav-two{
+  position: absolute;
+  left: 654px;
+  top: 40px;
+}
+.foot-nav-two li{
+  padding: 10px;
+}
+.copy{
+  font-family: 'Public Sans', sans-serif;
+  margin-top: 130px;
+  margin-right: 125px;
+  color:  hsl(0, 2%, 64%);;
+}
+
+@media screen and (max-width:400px) {
+  .mock {
+    display: inline;
+    position: absolute;
+    margin: auto;
+    top: 100px;
+  }
+  .mock-one{
+    background-image: url(./images/bg-intro-mobile.svg);
+    background-size: contain;
+    background-position-y: -45%;
+    z-index: -1000;
+    
+  } 
+
+
+}
